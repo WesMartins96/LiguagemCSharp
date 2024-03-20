@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntradaDeDados", "EntradaDe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio_EntradaDeDados", "Desafio_EntradaDeDados\Desafio_EntradaDeDados.csproj", "{4D379D41-7D95-4952-B593-A3EBA1C6AC5C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperadoresLogicos", "OperadoresLogicos\OperadoresLogicos.csproj", "{99819FDB-30A6-46D3-AEAA-BE37A6EC819C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{4D379D41-7D95-4952-B593-A3EBA1C6AC5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D379D41-7D95-4952-B593-A3EBA1C6AC5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D379D41-7D95-4952-B593-A3EBA1C6AC5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99819FDB-30A6-46D3-AEAA-BE37A6EC819C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99819FDB-30A6-46D3-AEAA-BE37A6EC819C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99819FDB-30A6-46D3-AEAA-BE37A6EC819C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99819FDB-30A6-46D3-AEAA-BE37A6EC819C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
