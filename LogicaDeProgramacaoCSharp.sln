@@ -25,6 +25,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio_EstruturaIfElse", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Funcoes", "Funcoes\Funcoes.csproj", "{08C3CDB7-4B68-4275-8C71-E73AE98130F7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstruturaRepetitivaWhile", "EstruturaRepetitivaWhile\EstruturaRepetitivaWhile.csproj", "{6ABD3DC2-5BF3-43ED-8F7B-209EB25E0306}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio_EstruturaRepetitivaWhile", "Desafio_EstruturaRepetitivaWhile\Desafio_EstruturaRepetitivaWhile.csproj", "{A863F1B5-4FD0-4089-9475-A321FB4E2008}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{08C3CDB7-4B68-4275-8C71-E73AE98130F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08C3CDB7-4B68-4275-8C71-E73AE98130F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08C3CDB7-4B68-4275-8C71-E73AE98130F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ABD3DC2-5BF3-43ED-8F7B-209EB25E0306}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ABD3DC2-5BF3-43ED-8F7B-209EB25E0306}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ABD3DC2-5BF3-43ED-8F7B-209EB25E0306}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ABD3DC2-5BF3-43ED-8F7B-209EB25E0306}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A863F1B5-4FD0-4089-9475-A321FB4E2008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A863F1B5-4FD0-4089-9475-A321FB4E2008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A863F1B5-4FD0-4089-9475-A321FB4E2008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A863F1B5-4FD0-4089-9475-A321FB4E2008}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
