@@ -19,9 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio_EntradaDeDados", "D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperadoresLogicos", "OperadoresLogicos\OperadoresLogicos.csproj", "{99819FDB-30A6-46D3-AEAA-BE37A6EC819C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstruturaIfElse", "EstruturaIfElse\EstruturaIfElse.csproj", "{CA5C4D0E-A6D6-40F9-97E0-BFA9359EF904}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstruturaIfElse", "EstruturaIfElse\EstruturaIfElse.csproj", "{CA5C4D0E-A6D6-40F9-97E0-BFA9359EF904}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio_EstruturaIfElse", "Desafio_EstruturaIfElse\Desafio_EstruturaIfElse.csproj", "{CD0F861E-A7E9-4C85-A601-9DDF10E2284D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio_EstruturaIfElse", "Desafio_EstruturaIfElse\Desafio_EstruturaIfElse.csproj", "{CD0F861E-A7E9-4C85-A601-9DDF10E2284D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Funcoes", "Funcoes\Funcoes.csproj", "{08C3CDB7-4B68-4275-8C71-E73AE98130F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{CD0F861E-A7E9-4C85-A601-9DDF10E2284D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD0F861E-A7E9-4C85-A601-9DDF10E2284D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD0F861E-A7E9-4C85-A601-9DDF10E2284D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08C3CDB7-4B68-4275-8C71-E73AE98130F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08C3CDB7-4B68-4275-8C71-E73AE98130F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08C3CDB7-4B68-4275-8C71-E73AE98130F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08C3CDB7-4B68-4275-8C71-E73AE98130F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
