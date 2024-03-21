@@ -23,13 +23,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstruturaIfElse", "Estrutur
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio_EstruturaIfElse", "Desafio_EstruturaIfElse\Desafio_EstruturaIfElse.csproj", "{CD0F861E-A7E9-4C85-A601-9DDF10E2284D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Funcoes", "Funcoes\Funcoes.csproj", "{08C3CDB7-4B68-4275-8C71-E73AE98130F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Funcoes", "Funcoes\Funcoes.csproj", "{08C3CDB7-4B68-4275-8C71-E73AE98130F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstruturaRepetitivaWhile", "EstruturaRepetitivaWhile\EstruturaRepetitivaWhile.csproj", "{6ABD3DC2-5BF3-43ED-8F7B-209EB25E0306}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstruturaRepetitivaWhile", "EstruturaRepetitivaWhile\EstruturaRepetitivaWhile.csproj", "{6ABD3DC2-5BF3-43ED-8F7B-209EB25E0306}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio_EstruturaRepetitivaWhile", "Desafio_EstruturaRepetitivaWhile\Desafio_EstruturaRepetitivaWhile.csproj", "{A863F1B5-4FD0-4089-9475-A321FB4E2008}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio_EstruturaRepetitivaWhile", "Desafio_EstruturaRepetitivaWhile\Desafio_EstruturaRepetitivaWhile.csproj", "{A863F1B5-4FD0-4089-9475-A321FB4E2008}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstruturaRepetitivaFor", "EstruturaRepetitivaFor\EstruturaRepetitivaFor.csproj", "{BFF6CC3B-6ECD-4B2D-BA9C-FA27B6914EA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstruturaRepetitivaFor", "EstruturaRepetitivaFor\EstruturaRepetitivaFor.csproj", "{BFF6CC3B-6ECD-4B2D-BA9C-FA27B6914EA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_ClassesEAtributos", "POO_ClassesEAtributos\POO_ClassesEAtributos.csproj", "{1D9B0B45-9547-405B-B63E-E26816A2C6BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{BFF6CC3B-6ECD-4B2D-BA9C-FA27B6914EA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFF6CC3B-6ECD-4B2D-BA9C-FA27B6914EA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFF6CC3B-6ECD-4B2D-BA9C-FA27B6914EA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D9B0B45-9547-405B-B63E-E26816A2C6BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D9B0B45-9547-405B-B63E-E26816A2C6BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D9B0B45-9547-405B-B63E-E26816A2C6BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D9B0B45-9547-405B-B63E-E26816A2C6BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
