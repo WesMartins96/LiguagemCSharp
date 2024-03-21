@@ -31,7 +31,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio_EstruturaRepetitiva
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstruturaRepetitivaFor", "EstruturaRepetitivaFor\EstruturaRepetitivaFor.csproj", "{BFF6CC3B-6ECD-4B2D-BA9C-FA27B6914EA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_ClassesEAtributos", "POO_ClassesEAtributos\POO_ClassesEAtributos.csproj", "{1D9B0B45-9547-405B-B63E-E26816A2C6BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO_ClassesEAtributos", "POO_ClassesEAtributos\POO_ClassesEAtributos.csproj", "{1D9B0B45-9547-405B-B63E-E26816A2C6BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio_POO_ClassesEAtributos", "Desafio_POO_ClassesEAtributos\Desafio_POO_ClassesEAtributos.csproj", "{F2376820-0CF7-4012-AC96-A97DD9285FFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{1D9B0B45-9547-405B-B63E-E26816A2C6BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D9B0B45-9547-405B-B63E-E26816A2C6BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D9B0B45-9547-405B-B63E-E26816A2C6BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2376820-0CF7-4012-AC96-A97DD9285FFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2376820-0CF7-4012-AC96-A97DD9285FFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2376820-0CF7-4012-AC96-A97DD9285FFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2376820-0CF7-4012-AC96-A97DD9285FFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

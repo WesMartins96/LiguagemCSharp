@@ -8,23 +8,27 @@ namespace POO_ClassesEAtributos
         static void Main(string[] args)
         {
             var culture = CultureInfo.InvariantCulture;
-            double xA, xB, xC, yA, yB, yC;
+
+            //Criando variaveis compostas pela classe Triangulo
+            Triangulo x, y;
+            x = new Triangulo();
+            y = new Triangulo();
 
             Console.WriteLine("Entre com as medidas do triângulo X:");
-            xA = double.Parse(Console.ReadLine(), culture);
-            xB = double.Parse(Console.ReadLine(), culture);
-            xC = double.Parse(Console.ReadLine(), culture);
+            x.A = double.Parse(Console.ReadLine(), culture);
+            x.B = double.Parse(Console.ReadLine(), culture);
+            x.C = double.Parse(Console.ReadLine(), culture);
 
             Console.WriteLine("Entre com as medidas do triângulo Y:");
-            yA = double.Parse(Console.ReadLine(), culture);
-            yB = double.Parse(Console.ReadLine(), culture); 
-            yC = double.Parse(Console.ReadLine(), culture);
+            y.A = double.Parse(Console.ReadLine(), culture);
+            y.B = double.Parse(Console.ReadLine(), culture); 
+            y.C = double.Parse(Console.ReadLine(), culture);
 
-            double p = (xA + xB + xC) / 2.0;
-            double areaX = Math.Sqrt(p * (p - xA) * (p - xB) * (p - xC));
+            double p = (x.A + x.B + x.C) / 2.0;
+            double areaX = Math.Sqrt(p * (p - x.A) * (p - x.B) * (p - x.C));
 
-            p = (yA + yB + yC) / 2.0;
-            double areaY = Math.Sqrt(p * (p - yA) * (p - yB) * (p - yC));
+            p = (y.A + y.B + y.C) / 2.0;
+            double areaY = Math.Sqrt(p * (p - y.A) * (p - y.B) * (p - y.C));
 
             Console.WriteLine($"Área de X = {areaX.ToString("F4", culture)}");
             Console.WriteLine($"Área de Y = {areaY.ToString("F4", culture)}");
