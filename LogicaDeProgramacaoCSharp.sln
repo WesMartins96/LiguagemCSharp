@@ -33,9 +33,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstruturaRepetitivaFor", "E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO_ClassesEAtributos", "POO_ClassesEAtributos\POO_ClassesEAtributos.csproj", "{1D9B0B45-9547-405B-B63E-E26816A2C6BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio_POO_ClassesEAtributos", "Desafio_POO_ClassesEAtributos\Desafio_POO_ClassesEAtributos.csproj", "{F2376820-0CF7-4012-AC96-A97DD9285FFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio_POO_ClassesEAtributos", "Desafio_POO_ClassesEAtributos\Desafio_POO_ClassesEAtributos.csproj", "{F2376820-0CF7-4012-AC96-A97DD9285FFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_ClassesEAtributosII", "POO_ClassesEAtributosII\POO_ClassesEAtributosII.csproj", "{6E74DA13-7BEA-4B36-975F-C2277BADF9DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO_ClassesEAtributosII", "POO_ClassesEAtributosII\POO_ClassesEAtributosII.csproj", "{6E74DA13-7BEA-4B36-975F-C2277BADF9DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio_POO_ClassesEAtributosII", "Desafio_POO_ClassesEAtributosII\Desafio_POO_ClassesEAtributosII.csproj", "{3FBDF039-8F2C-447F-8493-06DDF42324AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{6E74DA13-7BEA-4B36-975F-C2277BADF9DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E74DA13-7BEA-4B36-975F-C2277BADF9DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E74DA13-7BEA-4B36-975F-C2277BADF9DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FBDF039-8F2C-447F-8493-06DDF42324AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FBDF039-8F2C-447F-8493-06DDF42324AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FBDF039-8F2C-447F-8493-06DDF42324AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FBDF039-8F2C-447F-8493-06DDF42324AC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
