@@ -37,9 +37,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio_POO_ClassesEAtribut
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO_ClassesEAtributosII", "POO_ClassesEAtributosII\POO_ClassesEAtributosII.csproj", "{6E74DA13-7BEA-4B36-975F-C2277BADF9DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio_POO_ClassesEAtributosII", "Desafio_POO_ClassesEAtributosII\Desafio_POO_ClassesEAtributosII.csproj", "{3FBDF039-8F2C-447F-8493-06DDF42324AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio_POO_ClassesEAtributosII", "Desafio_POO_ClassesEAtributosII\Desafio_POO_ClassesEAtributosII.csproj", "{3FBDF039-8F2C-447F-8493-06DDF42324AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_MembrosEstaticos", "POO_MembrosEstaticos\POO_MembrosEstaticos.csproj", "{907F09A2-F166-4355-8DAC-E8D3D79F6F03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO_MembrosEstaticos", "POO_MembrosEstaticos\POO_MembrosEstaticos.csproj", "{907F09A2-F166-4355-8DAC-E8D3D79F6F03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_Construtores", "POO_Construtores\POO_Construtores.csproj", "{FDB096D9-95BA-4595-9599-CE4AEAF4616D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +125,10 @@ Global
 		{907F09A2-F166-4355-8DAC-E8D3D79F6F03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{907F09A2-F166-4355-8DAC-E8D3D79F6F03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{907F09A2-F166-4355-8DAC-E8D3D79F6F03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDB096D9-95BA-4595-9599-CE4AEAF4616D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDB096D9-95BA-4595-9599-CE4AEAF4616D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDB096D9-95BA-4595-9599-CE4AEAF4616D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDB096D9-95BA-4595-9599-CE4AEAF4616D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
