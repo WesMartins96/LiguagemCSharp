@@ -39,6 +39,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO_ClassesEAtributosII", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio_POO_ClassesEAtributosII", "Desafio_POO_ClassesEAtributosII\Desafio_POO_ClassesEAtributosII.csproj", "{3FBDF039-8F2C-447F-8493-06DDF42324AC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_MembrosEstaticos", "POO_MembrosEstaticos\POO_MembrosEstaticos.csproj", "{907F09A2-F166-4355-8DAC-E8D3D79F6F03}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{3FBDF039-8F2C-447F-8493-06DDF42324AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FBDF039-8F2C-447F-8493-06DDF42324AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FBDF039-8F2C-447F-8493-06DDF42324AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{907F09A2-F166-4355-8DAC-E8D3D79F6F03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{907F09A2-F166-4355-8DAC-E8D3D79F6F03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{907F09A2-F166-4355-8DAC-E8D3D79F6F03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{907F09A2-F166-4355-8DAC-E8D3D79F6F03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
