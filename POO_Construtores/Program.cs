@@ -8,7 +8,18 @@ namespace POO_Construtores
         static void Main(string[] args)
         {
             var culture = CultureInfo.InvariantCulture;
-            
+
+
+            //sintaxe alternativa para inicializar valores
+            Produto prototipo = new Produto
+            {
+                Nome = "Playstation 5",
+                Preco = 3790.00,
+                Estoque = 20
+            };
+
+            Console.WriteLine(prototipo);
+
 
             Console.WriteLine("Entre com os dados do produto:");
 

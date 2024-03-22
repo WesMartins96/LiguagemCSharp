@@ -14,23 +14,24 @@ namespace POO_Construtores
         public double Preco;
         public int Estoque;
 
-        //Construtor
-        public Produto(string nome, double preco, int estoque)
+        //Construtores
+        public Produto()
+        {
+            Estoque = 10;
+        }
+
+        //Sobrecarga
+        public Produto(string nome, double preco) : this()
         {
             Nome = nome;
             Preco = preco;
+        }    
+
+        public Produto(string nome, double preco, int estoque) : this(nome, preco)
+        {
             Estoque = estoque;
         }
 
-
-        //Sobrecarga
-        public Produto(string nome, double preco) 
-        {
-            Nome = nome;
-            Preco = preco;
-            //poderiamos retirar a linha abaixo, pois por padrao os atributos numericos recebem o valor zero.
-            Estoque = 0;
-        }    
 
         public double ValorTotalEmEstoque()
         {
