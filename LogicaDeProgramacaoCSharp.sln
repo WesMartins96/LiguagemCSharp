@@ -43,6 +43,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO_MembrosEstaticos", "POO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_Construtores", "POO_Construtores\POO_Construtores.csproj", "{FDB096D9-95BA-4595-9599-CE4AEAF4616D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_Encapsulamento", "POO_Encapsulamento\POO_Encapsulamento.csproj", "{5AFBD7FD-56FF-4CAA-B069-15EAA3B8C5D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{FDB096D9-95BA-4595-9599-CE4AEAF4616D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDB096D9-95BA-4595-9599-CE4AEAF4616D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDB096D9-95BA-4595-9599-CE4AEAF4616D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AFBD7FD-56FF-4CAA-B069-15EAA3B8C5D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AFBD7FD-56FF-4CAA-B069-15EAA3B8C5D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AFBD7FD-56FF-4CAA-B069-15EAA3B8C5D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AFBD7FD-56FF-4CAA-B069-15EAA3B8C5D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
