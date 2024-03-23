@@ -47,6 +47,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO_Encapsulamento", "POO_E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_Properties", "POO_Properties\POO_Properties.csproj", "{5640EF77-4757-499C-80BB-CA05F1B780B7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio_POO_Properties", "Desafio_POO_Properties\Desafio_POO_Properties.csproj", "{D5607668-E47F-43DE-A6BB-217117C79783}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{5640EF77-4757-499C-80BB-CA05F1B780B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5640EF77-4757-499C-80BB-CA05F1B780B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5640EF77-4757-499C-80BB-CA05F1B780B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5607668-E47F-43DE-A6BB-217117C79783}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5607668-E47F-43DE-A6BB-217117C79783}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5607668-E47F-43DE-A6BB-217117C79783}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5607668-E47F-43DE-A6BB-217117C79783}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
