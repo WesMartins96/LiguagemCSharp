@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_Properties", "POO_Prope
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio_POO_Properties", "Desafio_POO_Properties\Desafio_POO_Properties.csproj", "{D5607668-E47F-43DE-A6BB-217117C79783}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_Nullable", "POO_Nullable\POO_Nullable.csproj", "{156F582F-1358-423D-85B9-87C3F426B6E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{D5607668-E47F-43DE-A6BB-217117C79783}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5607668-E47F-43DE-A6BB-217117C79783}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5607668-E47F-43DE-A6BB-217117C79783}.Release|Any CPU.Build.0 = Release|Any CPU
+		{156F582F-1358-423D-85B9-87C3F426B6E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{156F582F-1358-423D-85B9-87C3F426B6E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{156F582F-1358-423D-85B9-87C3F426B6E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{156F582F-1358-423D-85B9-87C3F426B6E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

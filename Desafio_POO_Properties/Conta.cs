@@ -10,7 +10,7 @@ namespace Desafio_POO_Properties
     class Conta
     {
         public string NumeroConta { private get; set; }
-        public string Titular { private get; set; }
+        public string Titular { get; set; }
         public double Saldo { get; private set; }
 
 
