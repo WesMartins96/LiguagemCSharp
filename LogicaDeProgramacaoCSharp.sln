@@ -45,15 +45,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO_Construtores", "POO_Con
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO_Encapsulamento", "POO_Encapsulamento\POO_Encapsulamento.csproj", "{5AFBD7FD-56FF-4CAA-B069-15EAA3B8C5D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_Properties", "POO_Properties\POO_Properties.csproj", "{5640EF77-4757-499C-80BB-CA05F1B780B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO_Properties", "POO_Properties\POO_Properties.csproj", "{5640EF77-4757-499C-80BB-CA05F1B780B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio_POO_Properties", "Desafio_POO_Properties\Desafio_POO_Properties.csproj", "{D5607668-E47F-43DE-A6BB-217117C79783}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio_POO_Properties", "Desafio_POO_Properties\Desafio_POO_Properties.csproj", "{D5607668-E47F-43DE-A6BB-217117C79783}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_Nullable", "POO_Nullable\POO_Nullable.csproj", "{156F582F-1358-423D-85B9-87C3F426B6E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO_Nullable", "POO_Nullable\POO_Nullable.csproj", "{156F582F-1358-423D-85B9-87C3F426B6E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vetores", "Vetores\Vetores.csproj", "{9047214D-E27C-48A7-829E-8F3404466D80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vetores", "Vetores\Vetores.csproj", "{9047214D-E27C-48A7-829E-8F3404466D80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VetoresII", "VetoresII\VetoresII.csproj", "{DD2DCA6A-AD73-4D2A-B8E2-E2CD580D8454}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VetoresII", "VetoresII\VetoresII.csproj", "{DD2DCA6A-AD73-4D2A-B8E2-E2CD580D8454}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio_Vetores", "Desafio_Vetores\Desafio_Vetores.csproj", "{61FB5CE4-F90A-4068-BED6-B490F9613D27}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -165,6 +167,10 @@ Global
 		{DD2DCA6A-AD73-4D2A-B8E2-E2CD580D8454}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD2DCA6A-AD73-4D2A-B8E2-E2CD580D8454}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD2DCA6A-AD73-4D2A-B8E2-E2CD580D8454}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61FB5CE4-F90A-4068-BED6-B490F9613D27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61FB5CE4-F90A-4068-BED6-B490F9613D27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61FB5CE4-F90A-4068-BED6-B490F9613D27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61FB5CE4-F90A-4068-BED6-B490F9613D27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
