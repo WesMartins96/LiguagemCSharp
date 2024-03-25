@@ -55,15 +55,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vetores", "Vetores\Vetores.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VetoresII", "VetoresII\VetoresII.csproj", "{DD2DCA6A-AD73-4D2A-B8E2-E2CD580D8454}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio_Vetores", "Desafio_Vetores\Desafio_Vetores.csproj", "{61FB5CE4-F90A-4068-BED6-B490F9613D27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio_Vetores", "Desafio_Vetores\Desafio_Vetores.csproj", "{61FB5CE4-F90A-4068-BED6-B490F9613D27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foreach", "Foreach\Foreach.csproj", "{89FB11CD-0A37-4441-B1D3-53C3410447DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foreach", "Foreach\Foreach.csproj", "{89FB11CD-0A37-4441-B1D3-53C3410447DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "List", "List\List.csproj", "{0108C81A-BD2E-4719-99ED-8439D72D96BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "List", "List\List.csproj", "{0108C81A-BD2E-4719-99ED-8439D72D96BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListII", "ListII\ListII.csproj", "{0128360B-DD99-408C-9371-149F29451098}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListII", "ListII\ListII.csproj", "{0128360B-DD99-408C-9371-149F29451098}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio_List", "Desafio_List\Desafio_List.csproj", "{F480DF94-E6F9-4C14-928C-65436E8E6929}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio_List", "Desafio_List\Desafio_List.csproj", "{F480DF94-E6F9-4C14-928C-65436E8E6929}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrizes", "Matrizes\Matrizes.csproj", "{9EB76EC8-6B28-4ED1-99CE-40C93EA6C6D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioResolvido_Matrizes", "DesafioResolvido_Matrizes\DesafioResolvido_Matrizes.csproj", "{9BCB75B3-BCB9-49B5-A890-8351CE49B5DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -195,6 +199,14 @@ Global
 		{F480DF94-E6F9-4C14-928C-65436E8E6929}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F480DF94-E6F9-4C14-928C-65436E8E6929}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F480DF94-E6F9-4C14-928C-65436E8E6929}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EB76EC8-6B28-4ED1-99CE-40C93EA6C6D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EB76EC8-6B28-4ED1-99CE-40C93EA6C6D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EB76EC8-6B28-4ED1-99CE-40C93EA6C6D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EB76EC8-6B28-4ED1-99CE-40C93EA6C6D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BCB75B3-BCB9-49B5-A890-8351CE49B5DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BCB75B3-BCB9-49B5-A890-8351CE49B5DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BCB75B3-BCB9-49B5-A890-8351CE49B5DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BCB75B3-BCB9-49B5-A890-8351CE49B5DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
