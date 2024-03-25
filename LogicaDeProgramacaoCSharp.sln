@@ -75,6 +75,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperadorTernario", "Operado
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String", "String\String.csproj", "{0B8EE45B-0F22-4215-AD5A-286A699DEEC7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTime_Builders", "DateTime\DateTime_Builders.csproj", "{F59741A1-D953-4C6E-BCD8-679C1E102A6D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -225,6 +227,10 @@ Global
 		{0B8EE45B-0F22-4215-AD5A-286A699DEEC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B8EE45B-0F22-4215-AD5A-286A699DEEC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B8EE45B-0F22-4215-AD5A-286A699DEEC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F59741A1-D953-4C6E-BCD8-679C1E102A6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F59741A1-D953-4C6E-BCD8-679C1E102A6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F59741A1-D953-4C6E-BCD8-679C1E102A6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F59741A1-D953-4C6E-BCD8-679C1E102A6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
