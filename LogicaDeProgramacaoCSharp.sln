@@ -85,6 +85,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeSpan_Propriedades", "Ti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeKind_ISO8601", "DateTimeKind_ISO8601\DateTimeKind_ISO8601.csproj", "{4E2600BF-7A5E-4AB5-8250-D3C0C4C54BCF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_Enumeracao", "POO_Enumeracao\POO_Enumeracao.csproj", "{4753EB1D-4CBA-429D-A5B4-0785E65C9CFF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -255,6 +257,10 @@ Global
 		{4E2600BF-7A5E-4AB5-8250-D3C0C4C54BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E2600BF-7A5E-4AB5-8250-D3C0C4C54BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E2600BF-7A5E-4AB5-8250-D3C0C4C54BCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4753EB1D-4CBA-429D-A5B4-0785E65C9CFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4753EB1D-4CBA-429D-A5B4-0785E65C9CFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4753EB1D-4CBA-429D-A5B4-0785E65C9CFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4753EB1D-4CBA-429D-A5B4-0785E65C9CFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
