@@ -71,6 +71,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioResolvido_Matrizes",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchCase", "SwitchCase\SwitchCase.csproj", "{0E4CCE3A-B710-490F-9BCC-8C6EA4E607E4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperadorTernario", "OperadorTernario\OperadorTernario.csproj", "{43AE101F-CE93-4528-B6D5-67F7714815CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -213,6 +215,10 @@ Global
 		{0E4CCE3A-B710-490F-9BCC-8C6EA4E607E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E4CCE3A-B710-490F-9BCC-8C6EA4E607E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E4CCE3A-B710-490F-9BCC-8C6EA4E607E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43AE101F-CE93-4528-B6D5-67F7714815CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43AE101F-CE93-4528-B6D5-67F7714815CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43AE101F-CE93-4528-B6D5-67F7714815CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43AE101F-CE93-4528-B6D5-67F7714815CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
