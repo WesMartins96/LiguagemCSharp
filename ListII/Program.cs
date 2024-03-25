@@ -42,6 +42,10 @@ namespace ListII
             //exemplo: quero encontrar primeiro elemento que começa com a letra B, usando labda
             string s1 = list.Find(x => x[0] == 'B');
             Console.WriteLine("Primeiro nome que começa com B: " + s1);
+            //exemplo: quero encontrar primeiro elemento que começa com a letra B, usando função
+            string sFunc = list.Find(Test);
+            Console.WriteLine("Primeiro nome que começa com B, usando função: " + sFunc);
+            
             //exemplo: quero encontrar o ultimo elemento que começa com a letra B, usando lambda
             string s2 = list.FindLast(x => x[0] == 'B');
             Console.WriteLine("Ultimo nome que começa com B: " + s2);
@@ -101,6 +105,11 @@ namespace ListII
                 Console.WriteLine("Lista Final: " + obj);
             }
             #endregion
+        }
+
+        static bool Test(string s)
+        {
+            return s[0] == 'B';
         }
     }
 }
