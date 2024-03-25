@@ -65,17 +65,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListII", "ListII\ListII.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio_List", "Desafio_List\Desafio_List.csproj", "{F480DF94-E6F9-4C14-928C-65436E8E6929}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrizes", "Matrizes\Matrizes.csproj", "{9EB76EC8-6B28-4ED1-99CE-40C93EA6C6D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matrizes", "Matrizes\Matrizes.csproj", "{9EB76EC8-6B28-4ED1-99CE-40C93EA6C6D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioResolvido_Matrizes", "DesafioResolvido_Matrizes\DesafioResolvido_Matrizes.csproj", "{9BCB75B3-BCB9-49B5-A890-8351CE49B5DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioResolvido_Matrizes", "DesafioResolvido_Matrizes\DesafioResolvido_Matrizes.csproj", "{9BCB75B3-BCB9-49B5-A890-8351CE49B5DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchCase", "SwitchCase\SwitchCase.csproj", "{0E4CCE3A-B710-490F-9BCC-8C6EA4E607E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwitchCase", "SwitchCase\SwitchCase.csproj", "{0E4CCE3A-B710-490F-9BCC-8C6EA4E607E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperadorTernario", "OperadorTernario\OperadorTernario.csproj", "{43AE101F-CE93-4528-B6D5-67F7714815CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperadorTernario", "OperadorTernario\OperadorTernario.csproj", "{43AE101F-CE93-4528-B6D5-67F7714815CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String", "String\String.csproj", "{0B8EE45B-0F22-4215-AD5A-286A699DEEC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "String", "String\String.csproj", "{0B8EE45B-0F22-4215-AD5A-286A699DEEC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTime_Builders", "DateTime\DateTime_Builders.csproj", "{F59741A1-D953-4C6E-BCD8-679C1E102A6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DateTime_Builders", "DateTime\DateTime_Builders.csproj", "{F59741A1-D953-4C6E-BCD8-679C1E102A6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeSpan_Construtores", "TimeSpan_Construtores\TimeSpan_Construtores.csproj", "{C3C65C14-1606-4B95-8686-9B4FEB4487CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTime_Propriedades", "DateTime_Propriedades\DateTime_Propriedades.csproj", "{4CEFBFFA-BE7C-4DD5-B11B-2D79C187A630}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeSpan_Propriedades", "TimeSpan_Propriedades\TimeSpan_Propriedades.csproj", "{60D616FC-5F1B-4A12-BBBB-6BE5B22F7500}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -231,6 +237,18 @@ Global
 		{F59741A1-D953-4C6E-BCD8-679C1E102A6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F59741A1-D953-4C6E-BCD8-679C1E102A6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F59741A1-D953-4C6E-BCD8-679C1E102A6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3C65C14-1606-4B95-8686-9B4FEB4487CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3C65C14-1606-4B95-8686-9B4FEB4487CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3C65C14-1606-4B95-8686-9B4FEB4487CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3C65C14-1606-4B95-8686-9B4FEB4487CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CEFBFFA-BE7C-4DD5-B11B-2D79C187A630}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CEFBFFA-BE7C-4DD5-B11B-2D79C187A630}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CEFBFFA-BE7C-4DD5-B11B-2D79C187A630}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CEFBFFA-BE7C-4DD5-B11B-2D79C187A630}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60D616FC-5F1B-4A12-BBBB-6BE5B22F7500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60D616FC-5F1B-4A12-BBBB-6BE5B22F7500}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60D616FC-5F1B-4A12-BBBB-6BE5B22F7500}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60D616FC-5F1B-4A12-BBBB-6BE5B22F7500}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
