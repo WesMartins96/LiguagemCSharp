@@ -69,6 +69,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrizes", "Matrizes\Matriz
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioResolvido_Matrizes", "DesafioResolvido_Matrizes\DesafioResolvido_Matrizes.csproj", "{9BCB75B3-BCB9-49B5-A890-8351CE49B5DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchCase", "SwitchCase\SwitchCase.csproj", "{0E4CCE3A-B710-490F-9BCC-8C6EA4E607E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -207,6 +209,10 @@ Global
 		{9BCB75B3-BCB9-49B5-A890-8351CE49B5DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BCB75B3-BCB9-49B5-A890-8351CE49B5DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BCB75B3-BCB9-49B5-A890-8351CE49B5DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E4CCE3A-B710-490F-9BCC-8C6EA4E607E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E4CCE3A-B710-490F-9BCC-8C6EA4E607E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E4CCE3A-B710-490F-9BCC-8C6EA4E607E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E4CCE3A-B710-490F-9BCC-8C6EA4E607E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
