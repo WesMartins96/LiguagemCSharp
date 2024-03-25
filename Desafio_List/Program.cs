@@ -68,7 +68,7 @@ namespace Desafio_List
             foreach(var obj in funcionarios)
             {
                 Console.WriteLine(obj);
-            }
+            } 
 
             #endregion
         }
