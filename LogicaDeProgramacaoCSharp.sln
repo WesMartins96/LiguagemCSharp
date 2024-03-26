@@ -91,6 +91,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioResolvido_Enum_Compo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeafioResolvido_Enum_Composicao_StringBuilder", "DeafioResolvido_Enum_Composicao_StringBuilder\DeafioResolvido_Enum_Composicao_StringBuilder.csproj", "{0990CB29-3A56-44DE-A96A-660B6777E4EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio_Enum_composicao_StringBuilder", "Desafio_Enum_composicao_StringBuilder\Desafio_Enum_composicao_StringBuilder.csproj", "{424209DA-2E3E-41EA-A895-5728F4CA9EF4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -273,6 +275,10 @@ Global
 		{0990CB29-3A56-44DE-A96A-660B6777E4EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0990CB29-3A56-44DE-A96A-660B6777E4EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0990CB29-3A56-44DE-A96A-660B6777E4EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{424209DA-2E3E-41EA-A895-5728F4CA9EF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{424209DA-2E3E-41EA-A895-5728F4CA9EF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{424209DA-2E3E-41EA-A895-5728F4CA9EF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{424209DA-2E3E-41EA-A895-5728F4CA9EF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
