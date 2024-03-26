@@ -77,15 +77,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "String", "String\String.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DateTime_Builders", "DateTime\DateTime_Builders.csproj", "{F59741A1-D953-4C6E-BCD8-679C1E102A6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeSpan_Construtores", "TimeSpan_Construtores\TimeSpan_Construtores.csproj", "{C3C65C14-1606-4B95-8686-9B4FEB4487CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeSpan_Construtores", "TimeSpan_Construtores\TimeSpan_Construtores.csproj", "{C3C65C14-1606-4B95-8686-9B4FEB4487CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTime_Propriedades", "DateTime_Propriedades\DateTime_Propriedades.csproj", "{4CEFBFFA-BE7C-4DD5-B11B-2D79C187A630}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DateTime_Propriedades", "DateTime_Propriedades\DateTime_Propriedades.csproj", "{4CEFBFFA-BE7C-4DD5-B11B-2D79C187A630}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeSpan_Propriedades", "TimeSpan_Propriedades\TimeSpan_Propriedades.csproj", "{60D616FC-5F1B-4A12-BBBB-6BE5B22F7500}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeSpan_Propriedades", "TimeSpan_Propriedades\TimeSpan_Propriedades.csproj", "{60D616FC-5F1B-4A12-BBBB-6BE5B22F7500}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeKind_ISO8601", "DateTimeKind_ISO8601\DateTimeKind_ISO8601.csproj", "{4E2600BF-7A5E-4AB5-8250-D3C0C4C54BCF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DateTimeKind_ISO8601", "DateTimeKind_ISO8601\DateTimeKind_ISO8601.csproj", "{4E2600BF-7A5E-4AB5-8250-D3C0C4C54BCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_Enumeracao", "POO_Enumeracao\POO_Enumeracao.csproj", "{4753EB1D-4CBA-429D-A5B4-0785E65C9CFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO_Enumeracao", "POO_Enumeracao\POO_Enumeracao.csproj", "{4753EB1D-4CBA-429D-A5B4-0785E65C9CFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioResolvido_Enum_Composicao", "DesafioResolvido_Enum_Composicao\DesafioResolvido_Enum_Composicao.csproj", "{E991A7D1-8B07-4BC5-B965-E91AEF942114}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -261,6 +263,10 @@ Global
 		{4753EB1D-4CBA-429D-A5B4-0785E65C9CFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4753EB1D-4CBA-429D-A5B4-0785E65C9CFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4753EB1D-4CBA-429D-A5B4-0785E65C9CFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E991A7D1-8B07-4BC5-B965-E91AEF942114}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E991A7D1-8B07-4BC5-B965-E91AEF942114}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E991A7D1-8B07-4BC5-B965-E91AEF942114}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E991A7D1-8B07-4BC5-B965-E91AEF942114}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
