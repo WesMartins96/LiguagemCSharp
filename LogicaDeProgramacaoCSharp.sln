@@ -93,7 +93,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeafioResolvido_Enum_Compos
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio_Enum_composicao_StringBuilder", "Desafio_Enum_composicao_StringBuilder\Desafio_Enum_composicao_StringBuilder.csproj", "{424209DA-2E3E-41EA-A895-5728F4CA9EF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_Heranca", "POO_Heranca\POO_Heranca.csproj", "{68926882-2390-4D16-98E5-C04AAF52697F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO_Heranca", "POO_Heranca\POO_Heranca.csproj", "{68926882-2390-4D16-98E5-C04AAF52697F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

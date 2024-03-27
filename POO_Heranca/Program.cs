@@ -43,7 +43,18 @@ namespace POO_Heranca
             }
 
 
+            Console.WriteLine("-------------------");
+            Console.WriteLine("Override");
+            Console.WriteLine("-------------------");
 
+            Account accountOver1 = new Account(1001, "Wesley Override", 500.00);
+            Account accountOver2 = new SavingsAccount(1002, "Beatriz Override", 500.00, 0.01);
+
+            accountOver1.Withdraw(10.0);
+            accountOver2.Withdraw(10.0);
+
+            Console.WriteLine(accountOver1.Balance);
+            Console.WriteLine(accountOver2.Balance);
 
         }
     }

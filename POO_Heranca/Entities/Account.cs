@@ -20,9 +20,10 @@ namespace POO_Heranca.Entities
             Balance = balance;
         }
 
-        public void Withdraw(double amount)
+        //exemplo de sobreposição (override), para funcionar devemos usar o virtual, assim ela fica disponivel para override em outras classes que herda
+        public virtual void Withdraw(double amount)
         {
-            Balance -= amount;
+            Balance -= amount + 5.00;
         }
 
         public void Deposit(double amount) 
