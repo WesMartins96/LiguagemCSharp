@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace POO_Heranca.Entities
 {
-    class SavingsAccount : Account
+    sealed class SavingsAccount : Account
     {
         public double InterestRate { get; set; }
 
         public SavingsAccount()
         {
-            
+
         }
 
         public SavingsAccount(int number, string holder, double balance, double interestRate) : base(number, holder, balance)
@@ -28,7 +28,9 @@ namespace POO_Heranca.Entities
 
         //Usando override para sobrescrever o deposito de Account.cs
         //Podemos usar a palavra base, reaproveitando a operação da superclasse (Account.cs) e adicionar novas coisas, conforme exemplo abaixo:
-        public override void Withdraw(double amount)
+
+        //só podemos selar metodos sobrepostos ou seja: metodos sealed só podem ser usados em metodos override
+        public sealed override void Withdraw(double amount)
         {
             base.Withdraw(amount);
             Balance -= 2.0;
