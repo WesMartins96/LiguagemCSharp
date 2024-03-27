@@ -95,6 +95,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio_Enum_composicao_Str
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO_Heranca", "POO_Heranca\POO_Heranca.csproj", "{68926882-2390-4D16-98E5-C04AAF52697F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioResolvido_POO_Heranca_Polimorfismo", "DesafioResolvido_POO_Heranca_Polimorfismo\DesafioResolvido_POO_Heranca_Polimorfismo.csproj", "{DBA1E6FA-096E-4EC4-83AD-FA6ED1CE6EDF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -285,6 +287,10 @@ Global
 		{68926882-2390-4D16-98E5-C04AAF52697F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68926882-2390-4D16-98E5-C04AAF52697F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68926882-2390-4D16-98E5-C04AAF52697F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBA1E6FA-096E-4EC4-83AD-FA6ED1CE6EDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBA1E6FA-096E-4EC4-83AD-FA6ED1CE6EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBA1E6FA-096E-4EC4-83AD-FA6ED1CE6EDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBA1E6FA-096E-4EC4-83AD-FA6ED1CE6EDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
