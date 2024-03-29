@@ -1,4 +1,5 @@
 ﻿using DesafioResolvido_TryCatch.Entities;
+using DesafioResolvido_TryCatch.Entities.Exceptions;
 using System;
 
 namespace DesafioResolvido_TryCatch
@@ -20,19 +21,15 @@ namespace DesafioResolvido_TryCatch
             Console.WriteLine();
 
 
-            Console.Write("Room number: ");
-            int roomNumber = int.Parse(Console.ReadLine());
-            Console.Write("Check-in date (dd/MM/yyyy): ");
-            DateTime checkIn = DateTime.Parse(Console.ReadLine());
-            Console.Write("Check-out date (dd/MM/yyyy): ");
-            DateTime checkOut = DateTime.Parse(Console.ReadLine());
+            try
+            {
+                Console.Write("Room number: ");
+                int roomNumber = int.Parse(Console.ReadLine());
+                Console.Write("Check-in date (dd/MM/yyyy): ");
+                DateTime checkIn = DateTime.Parse(Console.ReadLine());
+                Console.Write("Check-out date (dd/MM/yyyy): ");
+                DateTime checkOut = DateTime.Parse(Console.ReadLine());
 
-            if (checkOut <= checkIn)
-            {
-                Console.WriteLine("Error in reservation: Check-out date must be after check-in date");
-            }
-            else
-            {
                 Reservation reservation = new Reservation(roomNumber, checkIn, checkOut);
                 Console.WriteLine("Reservation:" + reservation);
 
@@ -44,22 +41,22 @@ namespace DesafioResolvido_TryCatch
                 Console.Write("Check-out date (dd/MM/yyyy): ");
                 checkOut = DateTime.Parse(Console.ReadLine());
 
-                DateTime now = DateTime.Now;
-                if (checkOut < now || checkIn < now)
-                {
-                    Console.WriteLine("Error in reservation: Reservation dates for update must be future dates");
-                }
-                else if (checkOut <= checkIn)
-                {
-                    Console.WriteLine("Error in reservation: Check-out date must be after check-in date");
-                }
-                else
-                {
-                    reservation.UpdateDates(checkIn, checkOut);
-                    Console.WriteLine("Reservation:" + reservation);
-                }              
-
+                reservation.UpdateDates(checkIn, checkOut);
+                Console.WriteLine("Reservation:" + reservation);
             }
+            catch (DomainException e)
+            {
+                Console.WriteLine("Error in reservation: " + e.Message);
+            }
+            catch (FormatException e)
+            {
+                Console.WriteLine("Format error: " + e.Message);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Erro inesperado! " + e.Message);
+            }
+
 
             #endregion
         }

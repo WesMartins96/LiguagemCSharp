@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using DesafioResolvido_TryCatch.Entities.Exceptions;
+using System;
 
 namespace DesafioResolvido_TryCatch.Entities
 {
@@ -15,11 +12,16 @@ namespace DesafioResolvido_TryCatch.Entities
 
         public Reservation()
         {
-            
+
         }
 
         public Reservation(int roomNumber, DateTime checkIn, DateTime checkOut)
         {
+            if (checkOut <= checkIn)
+            {
+                throw new DomainException("Error in reservation: Check-out date must be after check-in date");
+            }
+
             RoomNumber = roomNumber;
             CheckIn = checkIn;
             CheckOut = checkOut;
@@ -34,6 +36,20 @@ namespace DesafioResolvido_TryCatch.Entities
 
         public void UpdateDates(DateTime checkIn, DateTime checkOut)
         {
+            DateTime now = DateTime.Now;
+            if (checkOut < now || checkIn < now)
+            {
+                throw new DomainException("Error in reservation: Reservation dates for update must be future dates");
+            }
+            if (checkOut <= checkIn)
+            {
+                throw new DomainException("Error in reservation: Check-out date must be after check-in date");
+            }
+
+            CheckIn = checkIn;
+            CheckOut = checkOut;
+
+            throw null;
 
         }
 
