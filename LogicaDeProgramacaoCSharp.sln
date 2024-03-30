@@ -105,9 +105,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioResolvido_POO_Classe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio_POO_Classes_Abstratas", "Desafio_POO_Classes_Abstratas\Desafio_POO_Classes_Abstratas.csproj", "{DD014925-824C-4A15-854D-7823402B810F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estrutura_TryCatch", "Estrutura_TryCatch\Estrutura_TryCatch.csproj", "{496D9B8B-1DC0-4D17-99F8-EEFA4619F6D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Estrutura_TryCatch", "Estrutura_TryCatch\Estrutura_TryCatch.csproj", "{496D9B8B-1DC0-4D17-99F8-EEFA4619F6D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioResolvido_TryCatch", "DesafioResolvido_TryCatch\DesafioResolvido_TryCatch.csproj", "{D08352D8-0000-448C-AD8F-7ECA14F606A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioResolvido_TryCatch", "DesafioResolvido_TryCatch\DesafioResolvido_TryCatch.csproj", "{D08352D8-0000-448C-AD8F-7ECA14F606A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio_POO_TryCatch", "Desafio_POO_TryCatch\Desafio_POO_TryCatch.csproj", "{370F54DB-217A-45BA-BE6E-C40596328803}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -327,6 +329,10 @@ Global
 		{D08352D8-0000-448C-AD8F-7ECA14F606A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D08352D8-0000-448C-AD8F-7ECA14F606A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D08352D8-0000-448C-AD8F-7ECA14F606A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{370F54DB-217A-45BA-BE6E-C40596328803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{370F54DB-217A-45BA-BE6E-C40596328803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{370F54DB-217A-45BA-BE6E-C40596328803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{370F54DB-217A-45BA-BE6E-C40596328803}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
