@@ -129,6 +129,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Directory_DirectoryInfo", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Path_Arquivos", "Path\Path_Arquivos.csproj", "{F6D7D9C0-EEEE-467B-9D44-39FA29288651}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interface", "Interface", "{1AC210A6-E4A0-4E4B-96F6-BFF684EAEA86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio_Resolvido_SemInterface", "Desafio_Resolvido_SemInterface\Desafio_Resolvido_SemInterface.csproj", "{15828B00-6EA2-4C36-95E0-73BE39260536}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -379,6 +383,10 @@ Global
 		{F6D7D9C0-EEEE-467B-9D44-39FA29288651}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6D7D9C0-EEEE-467B-9D44-39FA29288651}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6D7D9C0-EEEE-467B-9D44-39FA29288651}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15828B00-6EA2-4C36-95E0-73BE39260536}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15828B00-6EA2-4C36-95E0-73BE39260536}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15828B00-6EA2-4C36-95E0-73BE39260536}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15828B00-6EA2-4C36-95E0-73BE39260536}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -391,6 +399,7 @@ Global
 		{A4B08C20-ABCC-4D93-A301-FD15725EF398} = {12E493F3-D732-4A5E-A07F-0D497C5775DA}
 		{92CBB8F4-3701-4306-8396-CE56474B5EC8} = {12E493F3-D732-4A5E-A07F-0D497C5775DA}
 		{F6D7D9C0-EEEE-467B-9D44-39FA29288651} = {12E493F3-D732-4A5E-A07F-0D497C5775DA}
+		{15828B00-6EA2-4C36-95E0-73BE39260536} = {1AC210A6-E4A0-4E4B-96F6-BFF684EAEA86}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0ABA0BE3-446B-4C29-9B36-2360D909A745}
