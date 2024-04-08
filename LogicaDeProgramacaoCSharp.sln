@@ -155,6 +155,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dictionary_SortedDictionary
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extension_Methods", "Extension_Methods\Extension_Methods.csproj", "{5EADD85A-5C66-46DA-BBF3-D588D37B4718}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lambda_Delegates_LINQ", "Lambda_Delegates_LINQ", "{AEBB96AF-56E0-4635-97EB-8B9C35C78369}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegate_Exemplo", "Delegate_Exemplo\Delegate_Exemplo.csproj", "{50401687-BF9B-47C2-9988-2768108FD8FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -449,6 +453,10 @@ Global
 		{5EADD85A-5C66-46DA-BBF3-D588D37B4718}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EADD85A-5C66-46DA-BBF3-D588D37B4718}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EADD85A-5C66-46DA-BBF3-D588D37B4718}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50401687-BF9B-47C2-9988-2768108FD8FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50401687-BF9B-47C2-9988-2768108FD8FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50401687-BF9B-47C2-9988-2768108FD8FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50401687-BF9B-47C2-9988-2768108FD8FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -471,6 +479,7 @@ Global
 		{80DC4B30-1DE1-4823-B962-E2AF02AC666A} = {9876B38C-117A-43DE-AD9B-04B6099AB1E0}
 		{6CEFF379-566D-4227-808D-7544D0B440FF} = {9876B38C-117A-43DE-AD9B-04B6099AB1E0}
 		{DE7BB61D-98AD-4156-B891-B48DEF51296E} = {9876B38C-117A-43DE-AD9B-04B6099AB1E0}
+		{50401687-BF9B-47C2-9988-2768108FD8FB} = {AEBB96AF-56E0-4635-97EB-8B9C35C78369}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0ABA0BE3-446B-4C29-9B36-2360D909A745}
