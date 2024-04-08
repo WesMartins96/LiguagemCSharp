@@ -151,7 +151,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hash_CompararIgualdade", "H
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio_Resolvido_Set", "Desafio_Resolvido_Set\Desafio_Resolvido_Set.csproj", "{6CEFF379-566D-4227-808D-7544D0B440FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary_SortedDictionary", "Dictionary_SortedDictionary\Dictionary_SortedDictionary.csproj", "{DE7BB61D-98AD-4156-B891-B48DEF51296E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dictionary_SortedDictionary", "Dictionary_SortedDictionary\Dictionary_SortedDictionary.csproj", "{DE7BB61D-98AD-4156-B891-B48DEF51296E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extension_Methods", "Extension_Methods\Extension_Methods.csproj", "{5EADD85A-5C66-46DA-BBF3-D588D37B4718}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -443,6 +445,10 @@ Global
 		{DE7BB61D-98AD-4156-B891-B48DEF51296E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE7BB61D-98AD-4156-B891-B48DEF51296E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE7BB61D-98AD-4156-B891-B48DEF51296E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EADD85A-5C66-46DA-BBF3-D588D37B4718}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EADD85A-5C66-46DA-BBF3-D588D37B4718}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EADD85A-5C66-46DA-BBF3-D588D37B4718}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EADD85A-5C66-46DA-BBF3-D588D37B4718}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
