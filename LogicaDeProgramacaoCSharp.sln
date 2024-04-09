@@ -163,6 +163,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multicast_Delegates", "Mult
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Predicate_Delegate", "Predicate_Delegate\Predicate_Delegate.csproj", "{51033AB1-4EFC-4BF5-BD7D-6738F0B3525C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Action_Delegate", "Action_Delegate\Action_Delegate.csproj", "{E34278AD-5B36-4C17-8E1D-2D1E8ECDE258}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -469,6 +471,10 @@ Global
 		{51033AB1-4EFC-4BF5-BD7D-6738F0B3525C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51033AB1-4EFC-4BF5-BD7D-6738F0B3525C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51033AB1-4EFC-4BF5-BD7D-6738F0B3525C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E34278AD-5B36-4C17-8E1D-2D1E8ECDE258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E34278AD-5B36-4C17-8E1D-2D1E8ECDE258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E34278AD-5B36-4C17-8E1D-2D1E8ECDE258}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E34278AD-5B36-4C17-8E1D-2D1E8ECDE258}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -494,6 +500,7 @@ Global
 		{50401687-BF9B-47C2-9988-2768108FD8FB} = {AEBB96AF-56E0-4635-97EB-8B9C35C78369}
 		{AB264B56-F3A9-4C44-8A58-A4C7411FB643} = {AEBB96AF-56E0-4635-97EB-8B9C35C78369}
 		{51033AB1-4EFC-4BF5-BD7D-6738F0B3525C} = {AEBB96AF-56E0-4635-97EB-8B9C35C78369}
+		{E34278AD-5B36-4C17-8E1D-2D1E8ECDE258} = {AEBB96AF-56E0-4635-97EB-8B9C35C78369}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0ABA0BE3-446B-4C29-9B36-2360D909A745}
