@@ -171,9 +171,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linq_ExemploDeUso", "Linq_E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exemplo_Linq_Lambda", "Exemplo_Linq_Lambda\Exemplo_Linq_Lambda.csproj", "{B411B1FF-C10D-47D9-8DC7-7A0189E51E01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio_Resolvido_Linq", "Desafio_Resolvido_Linq\Desafio_Resolvido_Linq.csproj", "{B72E6655-D931-4F14-9E33-3E140E854327}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio_Resolvido_Linq", "Desafio_Resolvido_Linq\Desafio_Resolvido_Linq.csproj", "{B72E6655-D931-4F14-9E33-3E140E854327}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio_Linq", "Desafio_Linq\Desafio_Linq.csproj", "{940CF686-9D05-4D10-A303-8E70BC6648C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio_Linq", "Desafio_Linq\Desafio_Linq.csproj", "{940CF686-9D05-4D10-A303-8E70BC6648C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projeto_SalesWebMvc", "Projeto_SalesWebMvc\Projeto_SalesWebMvc.csproj", "{76096452-C10E-4438-B411-CFE1073EC813}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -505,6 +507,10 @@ Global
 		{940CF686-9D05-4D10-A303-8E70BC6648C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{940CF686-9D05-4D10-A303-8E70BC6648C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{940CF686-9D05-4D10-A303-8E70BC6648C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76096452-C10E-4438-B411-CFE1073EC813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76096452-C10E-4438-B411-CFE1073EC813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76096452-C10E-4438-B411-CFE1073EC813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76096452-C10E-4438-B411-CFE1073EC813}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
