@@ -17,7 +17,8 @@ namespace Projeto_SalesWebMvc.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Salles Web MVC App from C# Course.";
+            ViewData["MeuNome"] = "Desenvolvedor .NET - Wes Martins";
 
             return View();
         }
